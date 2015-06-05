@@ -110,6 +110,10 @@ Package: firmware-zd1211
 Pin: release o=Debian,a=unstable
 Pin-Priority: 999
 
+Package: gettext-base
+Pin: release o=Debian Backports,n=wheezy-backports
+Pin-Priority: 999
+
 Package: initramfs-tools
 Pin: release o=Debian Backports,n=wheezy-backports
 Pin-Priority: 999
