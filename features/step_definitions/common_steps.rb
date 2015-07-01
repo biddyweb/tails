@@ -1006,7 +1006,6 @@ When /^I accept to import the key with Seahorse$/ do
   @screen.wait_and_click("TorBrowserOkButton.png", 10)
 end
 
-<<<<<<< HEAD
 Given /^a web server is running on the LAN$/ do
   next if @skip_steps_while_restoring_background
   web_server_ip_addr = $vmnet.bridge_ip_addr
